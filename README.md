@@ -30,8 +30,12 @@ A web application was built that scrapes data from several websites to gather da
 
 * The return value from the Python script /scrape route is stored in Mongo. 
 
+![Mongo DB](/mongodb_mars.png)
+
 * Created a root route / that queries the database and passes the mars data into an HTML template to display the data.
 
 * The HTML file 'index.html' displays all of the data in HTML elements with Bootstrap. 
+
+
 
 ![Final Application](/Final_App.png)
